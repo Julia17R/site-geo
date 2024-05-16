@@ -1,0 +1,16 @@
+body{
+    background-color: aliceblue;
+    color: rgb(46, 230, 92);
+}
+
+.verde {
+    color: #068DEF;
+}
+
+.azul {
+    color: #16931B;
+}
+
+li {
+    color: black;
+}
