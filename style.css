@@ -1,16 +1,53 @@
-body{
+body {
     background-color: aliceblue;
     color: rgb(46, 230, 92);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px; /* Ajuste conforme necessário */
+}
+
+h1 {
+    font-family: 'Inspiration', cursive;
+    font-size: 235px;
+    margin: 0;
 }
 
 .verde {
-    color: #068DEF;
+    color: green;
 }
 
 .azul {
-    color: #16931B;
+    color: blue;
 }
 
-li {
+ul.regions {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2cm; /* Espaço de 2 cm entre os itens */
+    margin-top: 50px; /* Ajuste conforme necessário */
+}
+
+ul.regions li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul.regions li img {
+    width: 300px; /* 3 vezes maior que 100px */
+    height: auto;
+}
+
+ul.regions li span {
     color: black;
+    font-family: 'Irish Grover', cursive;
+    font-size: 100px;
 }
